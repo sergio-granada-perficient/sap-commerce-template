@@ -1,0 +1,47 @@
+<hybrisconfig xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+              xsi:noNamespaceSchemaLocation='../bin/platform/resources/schemas/extensions.xsd'>
+    <extensions>
+        <!-- Uncomment the following if you have enabled Cloud Extension Pack-->
+        <!--<path dir='${HYBRIS_BIN_DIR}/modules-cep'  autoload='false' />-->
+
+        <path dir='${HYBRIS_BIN_DIR}'/>
+        <extension name='b2bcommerce'/>
+        <extension name='b2bcommercefacades'/>
+        <extension name='b2bcommercebackoffice'/>
+        <extension name='b2bacceleratorbackoffice'/>
+        <extension name='backoffice'/>
+        <extension name='platformbackoffice'/>
+        <extension name='basecommerce'/>
+        <extension name='basecommercebackoffice'/>
+        <extension name='solrserver'/>
+        <extension name='swaggerintegration'/>
+        <extension name='b2bocc'/>
+        <extension name='acceleratorocc'/>
+        <extension name='pcmbackoffice'/>
+        <extension name='deltadetection' />
+
+        <!--Promotions-->
+        <extension name='promotionengineservices'/>
+        <extension name='promotionenginebackoffice'/>
+        <extension name='droolsruleengineservices'/>
+        <extension name='rulebuilderbackoffice'/>
+        <extension name='ruledefinitions'/>
+        <extension name='ruleengine'/>
+        <extension name='ruleenginebackoffice'/>
+        <extension name='ruleengineservices'/>
+
+        <!--Integrations-->
+        <extension name='apiregistrybackoffice' />
+        <extension name='apiregistryservices' />
+        <extension name='inboundservices' />
+        <extension name='integrationbackoffice' />
+        <extension name='integrationmonitoringbackoffice' />
+        <extension name='integrationservices' />
+        <extension name='odata2services' />
+        <extension name='odata2webservices' />
+        <extension name='outboundservices' />
+        <extension name='outboundsync' />
+        <extension name='outboundsyncbackoffice' />
+
+    </extensions>
+</hybrisconfig>

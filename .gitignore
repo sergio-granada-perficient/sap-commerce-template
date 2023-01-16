@@ -1,0 +1,162 @@
+# folders/files to always ignore
+.metadata
+.DS_Store
+ehthumbs.db
+Thumbs.db
+__MACOSX/
+Icon
+**/gensrc
+
+#IDE files
+.gradle
+.idea
+idea-module-files
+*.iml
+*.eml
+*hybris4intellij.properties
+com.springsource.sts.config.flow.prefs
+org.sonar.ide.eclipse.core.prefs
+HybrisCodeGeneration.launch
+
+org.springframework.ide.eclipse.beans.core.prefs
+org.springframework.ide.eclipse.core.prefs
+.springBeans
+eclipsebin
+
+# Eclipse IDE files #
+*.swp
+*~.nib
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+.autotools
+.factorypath
+.target
+.tern-project
+.texlipse
+.apt_generated/
+.cache-main
+.scala_dependencies
+.worksheet
+.project
+.classpath
+.apt_generated
+.sts4-cache/
+org.springframework.ide.eclipse.beans.core.prefs
+org.springframework.ide.eclipse.core.prefs
+.springBeans
+RemoteSystemsTempFiles/
+
+# VS Code IDE files #
+.vscode
+
+# Sonar
+.sonar/
+.scannerwork/
+.sonarlint/
+
+# Merged files #
+*.BASE
+*.LOCAL
+*.REMOTE
+*.orig
+
+# NPM packages
+**/node_modules
+
+# Compiled class file
+*.class
+
+# Test classes
+**/testclasses
+
+# Generated jalo java files
+**/jalo
+
+# allow only custom extensions
+**/hybris/bin/*
+!**/hybris/bin/custom/
+ 
+# Folders to ignore at the root of the repository
+**/hybris/roles/
+**/hybris/log/
+**/hybris/temp/
+**/hybris/data/
+**/hybris/config/orbeon
+
+# Filename patterns to ignore
+*.class
+build.xml
+Generated*.java
+platformhome.properties
+*testclasses.xml
+extensioninfo.xsd
+*hmc.jar
+hmc.xsd
+items.xsd
+beans.xsd
+ruleset.xml
+*.log
+.pmd
+*build.number
+velocity.log
+
+base.properties
+#  Addon specific copy folders
+**/_ui/addons
+**/views/addons
+**/tld/addons
+**/tags/addons
+**/messages/addons
+**/web/addonsrc
+**/_ui-src/addons
+**/web/addontestsrc
+**/web/commonwebsrc/*/
+
+*_bof.jar
+
+# Java generated files #
+*.class
+*.war
+*.ear
+
+# Maven generated files #
+*.jar
+*.lastupdate
+
+# Commerce Ant generated files #
+gensrc/
+build.xml
+extensioninfo.xsd
+hmc.xsd
+platformhome.properties
+*-testclasses.xml
+*-webtestclasses.xml
+*-hmctestclasses.xml
+beans.xsd
+items.xsd
+classes/
+eclipsebin/
+
+## PMD Files
+.arvatopmd
+
+## Databases #
+*.sql
+*.sqlite
+
+## Project ignore
+**/build/
+**/dependencies/
+**/cloud-extension-pack/
+gradle.properties
+
+# Config folder ignore
+*/hybris/config/*
+!**/hybris/config/environments/
+!**/hybris/config/localextensions.xml
+
+#jrebel files - usually local dirs
+rebel.xml
